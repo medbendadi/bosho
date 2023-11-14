@@ -5,10 +5,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.font-heading{
+  font-family: 'Sora Variable', sans-serif;
+}
 a {
   text-decoration: none;
-  color: var(--color-font-one);
 }
 a:hover{
   text-decoration: underline;
@@ -38,4 +39,35 @@ body {
 }
 .lightButton:hover{
   opacity: .8;
+}
+
+.avatars {
+  display: inline-flex;
+  flex-direction: row-reverse;
+}
+
+.avatar {
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: all .2s ease;
+}
+/* 
+.avatar:not(:last-child) {
+  margin-left: -30px;
+} */
+
+/* .avatar:not(:first-child) {
+  border: 5px solid;
+} */
+
+.avatar img {
+  width: 100%;
+  display: block;
+}
+
+
+.hiddenScroll {
+  overflow: hidden;
+  overscroll-behavior: auto;
 }

@@ -21,12 +21,11 @@ export default {
     '@fontsource-variable/inter',
     '@fontsource-variable/sora',
   ],
-  plugins:[
+  plugins: [
     ...plugins,
   ],
   serverMiddleware: ['~/server/index'],
   components: true,
-  buildModules: [],
   modules: [
     '@nuxtjs/axios',
     '@nuxtjs/tailwindcss',

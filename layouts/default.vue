@@ -1,6 +1,7 @@
 <template>
-    <div class="px-[10rem] ">
+    <div class="w-[90%] m-auto">
       <layout-header/>
       <Nuxt />
     </div>
 </template>
+.

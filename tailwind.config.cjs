@@ -18,7 +18,7 @@ module.exports = {
     darkMode: false, // or 'media' or 'class'
     theme: {
       extend: {
-        fontFamilt:{
+        fontFamily:{
           body: ['Inter Variable', 'sans-serif'],
           heading: ['Sora Variable', 'sans-serif']
         }
